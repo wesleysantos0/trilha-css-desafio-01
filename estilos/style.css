@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lumanosimo', cursive; */
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Body */
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight:bolder;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+p {
+    color: white;
+}
+
+/* Configurações Cabeçalho Header */
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../trilha-css-desafio-01/assets/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #33A8DB80;
+    padding: 35px;
+
+}
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.banner p {
+    text-indent: 30px;
+    font-size: 1.3em;
+    margin: 30px 0px;
+    text-align: center;
+}
+.banner-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.banner-content .logo img{
+    object-fit: contain;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.315);
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+/* Botao */
+
+button {
+    padding: 10px;
+    width: 350px;
+    background-color: transparent;
+    color: #33A8DB;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: 2px solid;
+}
+
+/* Estilização do main */
+
+section#course-content {
+    display: block;
+    padding: 80px;
+}
+
+#course-content p {
+    text-align: center;
+}
+.modules-list {
+    margin: 0 auto;
+}
+
+.modules-list .module {
+    max-width: 500px;
+    margin: 30px auto ;
+    padding: 10px;
+    border: 1px solid #33A8DB ;
+    border-radius: 100px;
+    background-color: #35353594;
+    background-position: top center;
+    box-shadow: inset -5px 5px 10px  black;
+}
+
+.module span {
+    color: #33A8DB;
+}
+
+/* Estilização do background - transform-world  */
+
+#transform-world {
+    display: flex;
+    background-size: cover;
+    height: 560px;
+    background-image: url(../assets/images/woman-code.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 1px solid #33A8DB;
+
+}
+
+
+#transform-world p {
+    align-self: center;
+    position: relative;
+    left: 20%;
+    text-align: left;
+    line-height: 50px;
+    width: 250px;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-shadow: 3px 2px #33A8DB;
+    text-transform: lowercase;
+}
+
+/* Estilização do - professional-challenges */
+
+#professional-challenges {
+    padding: 90px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+/* Estilização do footer*/
+
+footer {
+    padding: 85px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.342),#33a9db2d);
+}
